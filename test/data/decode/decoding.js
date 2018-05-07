@@ -10,7 +10,7 @@ import { prepareContracts } from "test/helpers";
 
 import Debugger from "lib/debugger";
 
-import { MAX_WORD, cleanBigNumbers } from "lib/data/decode/utils";
+import { MAX_WORD, cleanBNs } from "lib/data/decode/utils";
 
 import data from "lib/data/selectors";
 import evm from "lib/evm/selectors";
@@ -99,7 +99,7 @@ describe("Data Decoding", function() {
     this.definitions = session.view(data.current.identifiers.definitions);
     this.refs = session.view(data.current.identifiers.refs);
     let decode = session.view(data.views.decoder);
-    this.decode = (...args) => cleanBigNumbers(decode(...args));
+    this.decode = (...args) => cleanBNs(decode(...args));
 
     debug("storage %O", session.view(evm.current.state.storage));
   });

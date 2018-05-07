@@ -32,7 +32,7 @@
     "truffle-code-utils": "^1.1.0",
     "truffle-expect": "0.0.3",
     "truffle-solidity-utils": "^1.1.0",
-    "web3": "^0.20.2",
+    "web3": "1.0.0-beta.33",
     "web3-eth-abi": "^1.0.0-beta.29"
   },
   "devDependencies": {
@@ -49,7 +49,7 @@
     "esdoc-standard-plugin": "^1.0.0",
     "express": "^4.16.2",
     "fs-extra": "^4.0.2",
-    "ganache-cli": "^6.1.0-beta.4",
+    "ganache-cli": "^6.1.0",
     "mocha": "^4.0.1",
     "mocha-webpack": "^1.1.0",
     "remotedev-server": "^0.2.4",
