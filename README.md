@@ -1,5 +1,12 @@
 # truffle-debugger
 
+-----------------------
+
+### :warning: This repo is deprecated :warning:
+**Truffle has moved all modules to a monorepo at [trufflesuite/truffle](https://github.com/trufflesuite/truffle). See you over there!**
+
+-----------------------
+
 Portable Solidity debugger library, for use with or without Truffle.
 
 ![Debugger in Action](https://i.imgur.com/0j5m4KW.gif)
